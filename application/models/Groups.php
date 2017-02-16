@@ -3,7 +3,7 @@ class Groups extends MY_Model {
 
         public function __construct()
         {
-                parent::__construct('flags', 'id');
+                parent::__construct('groups', 'id');
         }
 
 }
