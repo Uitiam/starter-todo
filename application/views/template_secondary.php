@@ -14,15 +14,19 @@
                 <div class="navbar-inner">
                     {menubar}
 				</div>
-            </div>           
-            <div id="content">
-                <h1>{pagetitle}</h1>
-                {content}
             </div>
-            <div id="footer" class="span12">
-                Copyright &copy; 2017,  <a href="mailto:someone@somewhere.com">Me</a>.
+        <div id="content">
+            <h1>{pagetitle}</h1>
+            <div class="row">
+                <div class="span6">
+                    {leftside}
+                </div>
+                <div class="span6">
+                    {rightside}
+                </div>
             </div>
         </div>
+    </div>
         <script src="/assets/js/jquery-1.11.1.min.js"></script>
         <script src="/assets/js/bootstrap.min.js"></script>
 	</body>
